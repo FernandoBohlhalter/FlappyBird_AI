@@ -14,7 +14,7 @@ Flappy bird clone with in-built AI that plays the game.
 # The AI
 <h3>For the NEAT AI to learn it requires outputs, rewards and punishment, read more on the NEAT-Python Documentation.</h3>
   <ul>
-    <li>Outputs: The outputs choosen to teach the AI were the Bird Y axis position, and the bird distance to the top pipe and the bottom pipe.</li>
+    <li>Inputs: The inputs choosen to teach the AI were the Bird Y axis position, and the bird distance to the top pipe and the bottom pipe.</li>
     <li>Rewards: The AI gained fitness(the "AI score") as a reward whenever it did a good action for it's progress in the game. It was given 5 fitness for each pipe passed and 0.1 fitness for each frame it stayed alive.</li>
     <li>Punishment: The AI lost fitness as a punishment each time it made a bad action for it's progress in the game. It was taken away 1 fitness whenever the bird hit an pipe, the ground or the top of the screen</li>
   </ul>
